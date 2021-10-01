@@ -114,7 +114,7 @@ else:
         # then, get the first half of the list, and find middle value of it, this is Q1
         first_half = data_set[:int(len(data_set) / 2)]
         first_index = (int(len(first_half) / 2) - 1)
-        second_index = (int(len(first_half) / 2))    
+        second_index = (int(len(first_half) / 2) )    
     
         Q1 = int((first_half[first_index] + first_half[second_index]) / 2)
 
