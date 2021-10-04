@@ -4,7 +4,7 @@ verse = "If you can keep your head when all about you\n  Are losing theirs and b
 
 # Use the appropriate functions and methods to answer the questions above
 # Bonus: practice using .format() to output your answers in descriptive messages!
-print("The length of the string variable verse is {}".format(len(verse)))
+print("The length of  the string variable verse is {}".format(len(verse)))
 print("the index of the first occurrence of the word 'and' in verse is {}".format(verse.find('and')))
 print("the index of the last occurrence of the word 'you' in verse is {}".format(verse.rfind('you')))
 print("the count of occurrences of the word 'you' in the verse is {}".format(verse.count('you')))
