@@ -111,6 +111,7 @@ sns.heatmap(correlation_data)
 
 
 
+
 ### detecting outliers
 
 import numpy as np
@@ -136,6 +137,7 @@ def outlier_function(x):
     return outliers
     
 outlier_function(sales)
+
 
 
 
